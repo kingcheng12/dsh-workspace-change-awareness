@@ -1,0 +1,4 @@
+- insert:
+    - id: workspace-change-awareness
+      name: dsh-workspace-change-awareness
+

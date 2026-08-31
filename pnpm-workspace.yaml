@@ -1,0 +1,11 @@
+packages: []
+
+# pnpm 10+ requires every dependency lifecycle script to be reviewed. Native
+# dependencies needed by the pinned DSH CLI are allowed; known no-op scripts
+# are explicitly denied so a clean install remains non-interactive.
+allowBuilds:
+  '@deepseek-ai/dsh-subprocess-local': true
+  '@google/genai': false
+  koffi: true
+  node-pty: true
+  protobufjs: false
